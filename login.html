@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="login-form">
+		<h2>Login</h2>
+		<form action="/login" method="post">
+			<label for="username">Username:</label><br>
+			<input type="text" id="username" name="username"><br>
+			<label for="password">Password:</label><br>
+			<input type="password" id="password" name="password"><br>
+			<input type="submit" value="Login">
+		</form>
+		<a href="/login/discord" id="discord-login-button">
+			<img src="discord-login-button.png" alt="Login with Discord">
+		</a>
+	</div>
+
+	<a href="/signup">Don't have an account? Sign Up</a>
+</body>
+</html>
